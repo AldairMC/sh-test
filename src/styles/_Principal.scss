@@ -1,6 +1,14 @@
 @import "./Global";
 
-.App {
-    color: $color_principal;
-    font-family: $font_principal;
+.Principal {
+    display: grid;
+    grid-template-rows: 80% 20%;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+
+    .Content {
+        display: grid;
+        grid-template-rows: 100%;
+    }
 }
