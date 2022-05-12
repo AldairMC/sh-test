@@ -1,0 +1,20 @@
+.User {
+    margin: 100px 5%;
+    
+    .Div_User_Container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+        .Div_User_Text {
+            margin-left: 50px;
+            padding: 20px;
+            font-size: 25px;
+            justify-self: flex-start;
+            align-self: center;
+        }
+    }
+
+    .Div_User_Empty {
+        font-size: 25px;
+    }
+}
