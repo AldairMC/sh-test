@@ -1,0 +1,14 @@
+.Footer {
+    display: grid;
+    top: 0;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    border-top: 2px solid $color_navbar;
+    margin-top: 80px;
+    
+    .Span_Footer {
+        // padding-top: 50px;
+        justify-self: center;
+        align-self: center;
+    }
+}
