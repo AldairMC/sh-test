@@ -1,0 +1,68 @@
+@import "./Global";
+
+.Home {
+    display: grid;
+    padding-top: 100px;
+    grid-template-columns: 40% 60%;
+
+    .Div_Home_Description {
+        display: grid;
+        margin: 15%;
+        grid-template-rows: repeat(3, 1fr);
+        font-family: $font_principal;
+
+        .Div_Home_Title {
+            margin: 0 5%;
+            display: grid;
+            grid-auto-columns: 100%;
+
+            .Span_Home_Title {
+                font-size: 40px;
+                font-weight: 600;
+                color: $color_principal;
+                justify-self: flex-start;
+                align-self: flex-end;
+            }
+        }
+
+        .Div_Home_Subtitle {
+            display: grid;
+            margin: 0 5%;
+            grid-template-columns: 100%;
+
+            .Span_Home_Subtitle {
+                padding-top: 30px;
+                font-size: 20px;
+                color: rgba($color_principal, 0.5);
+                justify-self: center;
+                align-self: center;
+            }
+        }
+
+        .Div_Home_Search {
+            display: grid;
+            margin: 0 5%;
+            grid-template-columns: 100%;
+
+            .Link_Home_Search {
+                justify-self: flex-start;
+                align-self: center;
+                
+                .Button_Home_Search {
+                    padding: 7px 35px;
+                    cursor: pointer;
+                    color: white;
+                    border-radius: 5px;
+                    font-weight: 600;
+                    background-color: $color_principal;
+                }
+            }
+        }
+    }
+
+    .Div_Home_Hero {
+        background-image: url("https://imgur.com/kSnhGC3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
