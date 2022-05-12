@@ -2,7 +2,7 @@ import { useReducer } from "react";
 import axios from "axios";
 
 //types
-import { GET_USER } from "./types";
+import { GET_USER, CHANGE_ID, CLEAN_USER } from "./types";
 
 //reducer
 import AppReducer from "./AppReducer";
@@ -13,7 +13,8 @@ const AppProvider = ({ children }) => {
     const { REACT_APP_URI } = process.env
 
     const initialState = {
-        user: []
+        user: [],
+        id: null
     }
 
     const [ appState, dispatch ] = useReducer(AppReducer, initialState)
@@ -26,10 +27,28 @@ const AppProvider = ({ children }) => {
         })
     }
 
+    const changeId = (id) => {
+        console.log(id)
+        dispatch({
+            type: CHANGE_ID,
+            payload: id
+        })
+    }
+
+    const cleanUser = (arr) => {
+        dispatch({
+            type: CLEAN_USER,
+            payload: arr
+        })
+    }
+
     return (
         <AppContext.Provider value={{
             user: appState.user,
-            getUser
+            id: appState.id,
+            getUser,
+            changeId,
+            cleanUser
         }}>
             { children }
         </AppContext.Provider>
