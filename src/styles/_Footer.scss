@@ -21,3 +21,13 @@
         }
     }
 }
+
+@media (max-width: $screen_laptop_l) {
+    .Footer {
+        margin-top: 30px;
+
+        .Span_Footer {
+            font-size: 15px;
+        }
+    }
+}

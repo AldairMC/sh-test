@@ -98,3 +98,35 @@
         }
     }
 }
+
+@media (max-width: $screen_laptop_l) {
+    .Home {
+        .Div_Home_Description {
+            height: 400px;
+            justify-self: center;
+            align-self: center;
+
+            .Div_Home_Title {
+                .Span_Home_Title {
+                    font-size: 50px;
+                }
+            }
+
+            .Div_Home_Subtitle {   
+                .Span_Home_Subtitle {
+                    font-size: 20px;
+                }
+            }
+
+            .Div_Home_Search {
+                .Link_Home_Search {
+                    .Button_Home_Search {
+                        font-size: 15px;
+                        padding: 10px 45px;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

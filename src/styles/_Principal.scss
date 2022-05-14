@@ -13,7 +13,14 @@
     }
 }
 
+
 @media (max-width: $screen_4k) {
+    .Principal {
+        grid-template-rows: 90% 10%;
+    }
+}
+
+@media (max-width: $screen_laptop_l) {
     .Principal {
         grid-template-rows: 90% 10%;
     }

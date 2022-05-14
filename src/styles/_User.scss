@@ -33,3 +33,18 @@
         }
     }
 }
+
+@media (max-width: $screen_laptop_l) {
+    .User {
+
+        .Div_User_Container {
+            .Div_User_Text {
+                font-size: 20px;
+            }
+        }
+
+        .Div_User_Empty {
+            font-size: 25px;
+        }
+    }
+}
