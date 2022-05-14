@@ -7,8 +7,17 @@
     margin-top: 80px;
     
     .Span_Footer {
-        // padding-top: 50px;
         justify-self: center;
         align-self: center;
+    }
+}
+
+@media (max-width: $screen_4k) {
+    .Footer {
+        margin-top: 50px;
+
+        .Span_Footer {
+            font-size: 25px;
+        }
     }
 }

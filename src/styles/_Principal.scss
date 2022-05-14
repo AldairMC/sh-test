@@ -12,3 +12,9 @@
         grid-template-rows: 100%;
     }
 }
+
+@media (max-width: $screen_4k) {
+    .Principal {
+        grid-template-rows: 90% 10%;
+    }
+}

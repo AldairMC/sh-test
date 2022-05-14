@@ -47,3 +47,36 @@
         }
     }
 }
+
+@media (max-width: $screen_4k) {
+    .Search {
+        padding-top: 200px;
+        margin: 0 10%;
+
+        .Div_Search_Title {
+            a {
+                .Span_Search_Title {
+                    font-size: 80px;
+                }
+            }
+        }
+
+        .Div_Search_Search {   
+            .Span_Search_Input {
+                .Input_Search {
+                    font-size: 40px;
+                    border-radius: 10px;
+                }
+            }
+    
+            .Span_Search_Button {
+                margin-left: 10px;
+    
+                .Button_Search {
+                    font-size: 30px;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}

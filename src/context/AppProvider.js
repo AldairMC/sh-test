@@ -28,7 +28,6 @@ const AppProvider = ({ children }) => {
     }
 
     const changeId = (id) => {
-        console.log(id)
         dispatch({
             type: CHANGE_ID,
             payload: id

@@ -66,3 +66,35 @@
         background-size: cover;
     }
 }
+
+@media (max-width: $screen_4k) {
+    .Home {
+        .Div_Home_Description {
+            height: 500px;
+            justify-self: center;
+            align-self: center;
+
+            .Div_Home_Title {
+                .Span_Home_Title {
+                    font-size: 80px;
+                }
+            }
+
+            .Div_Home_Subtitle {   
+                .Span_Home_Subtitle {
+                    font-size: 30px;
+                }
+            }
+
+            .Div_Home_Search {
+                .Link_Home_Search {
+                    .Button_Home_Search {
+                        font-size: 25px;
+                        padding: 20px 65px;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

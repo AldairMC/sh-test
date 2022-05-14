@@ -18,3 +18,18 @@
         font-size: 25px;
     }
 }
+
+@media (max-width: $screen_4k) {
+    .User {
+
+        .Div_User_Container {
+            .Div_User_Text {
+                font-size: 40px;
+            }
+        }
+
+        .Div_User_Empty {
+            font-size: 50px;
+        }
+    }
+}
