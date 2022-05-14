@@ -31,3 +31,13 @@
         }
     }
 }
+
+@media (max-width: $screen_tablet) {
+    .Footer {
+        margin-top: 40px;
+
+        .Span_Footer {
+            font-size: 12px;
+        }
+    }
+}

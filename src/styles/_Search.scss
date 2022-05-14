@@ -113,3 +113,37 @@
         }
     }
 }
+
+@media (max-width: $screen_tablet) {
+    .Search {
+        padding-top: 100px;
+        margin: 0 5%;
+
+        .Div_Search_Title {
+            a {
+                .Span_Search_Title {
+                    font-size: 30px;
+                }
+            }
+        }
+
+        .Div_Search_Search {   
+            .Span_Search_Input {
+                .Input_Search {
+                    font-size: 15px;
+                    border-radius: 5px;
+                }
+            }
+    
+            .Span_Search_Button {
+                margin-left: 10px;
+    
+                .Button_Search {
+                    font-size: 9px;
+                    padding: 9px 25px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

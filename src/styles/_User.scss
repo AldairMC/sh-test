@@ -48,3 +48,18 @@
         }
     }
 }
+
+@media (max-width: $screen_tablet) {
+    .User {
+
+        .Div_User_Container {
+            .Div_User_Text {
+                font-size: 15px;
+            }
+        }
+
+        .Div_User_Empty {
+            font-size: 20px;
+        }
+    }
+}
