@@ -80,3 +80,16 @@
         }
     }
 }
+
+@media (max-width: $screen_mobile_m) {
+    .User {
+        margin: 30px 5%;
+
+        .Div_User_Container {
+            .Div_User_Text {
+                font-size: 15px;
+                margin-left: 0px;
+            }
+        }
+    }
+}

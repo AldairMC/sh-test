@@ -147,3 +147,37 @@
         }
     }
 }
+
+@media (max-width: $screen_mobile_m) {
+    .Search {
+        padding-top: 50px;
+        margin: 0 5%;
+
+        .Div_Search_Title {
+            a {
+                .Span_Search_Title {
+                    font-size: 25px;
+                }
+            }
+        }
+
+        .Div_Search_Search {   
+            .Span_Search_Input {
+                .Input_Search {
+                    font-size: 10px;
+                    border-radius: 5px;
+                }
+            }
+    
+            .Span_Search_Button {
+                margin-left: 10px;
+    
+                .Button_Search {
+                    font-size: 7px;
+                    padding: 7px 20px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
